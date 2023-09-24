@@ -1,0 +1,179 @@
+header {
+  width: 100%;
+  position: absolute;
+}
+
+.contenedor{
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 18px 18px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 10;
+}
+
+.blank {
+  background-color: transparent;
+}
+
+.open-menu {
+  border: solid 2px black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  left: 0px;
+  transition: ease .6s;
+}
+
+.open-menu img {
+  width: 33px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.language p {
+  padding: 0 10px;
+}
+
+.language p:first-of-type{
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  font-size: .95rem;
+}
+
+.language p:last-of-type{
+  border-left: solid 1px black;
+  color: #222;
+  letter-spacing: 1px;
+  font-size: 1.05rem;
+}
+
+.idioma{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  padding-top: 20px;
+  background-image: url('https://www.ajegroup.com/wp-content/themes/ajegroup/images/bg-menuSuperior.jpg');
+  background-size: cover;
+  background-position: right;
+  transition: ease .7s;
+  overflow-y: scroll;
+  z-index: 7;
+  opacity: 0;
+}
+
+.contenedor-menu{
+  max-width: 1170px;
+  padding: 0 30px;
+  margin: auto;
+}
+
+.contenedor-menu ul{
+  list-style: none;
+  font-size: 1.15rem;
+}
+
+.container-title{
+  padding: 0;
+}
+
+.menu{
+  padding-top: 27px;
+  position: relative;
+}
+
+.mostrar-menu{
+  top: 0;
+  z-index: 9;
+  opacity: 1;
+}
+
+.move-icon{
+  left: calc(100% - 85px);
+}
+
+.desaparecer-lenguaje{
+  display: none;
+}
+
+@media (min-width: 770px){
+
+  header{
+    position: absolute;
+    z-index: auto;
+  }
+
+  .open-menu {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+  }
+
+  .move-icon{
+    left: calc(100% - 85px);
+  }
+
+  .menu{
+    border-right: 2px solid black;
+  }
+
+  .language {
+    color: white;
+    position: fixed;
+    z-index: 10;
+    right: 60px;
+    top: 33px;
+  }
+
+  .language p:last-of-type{
+    color: white;
+  }
+
+  .container-menu {
+    overflow-y: auto;
+  }
+
+  .contenedor{
+    position: relative;
+    z-index: auto;
+    background-color: transparent;
+    width: auto;
+    max-width: 1600px;
+  }
+}
+
+@media (min-width: 990px){
+  .menu{
+    width: 30%;
+  }
+  .open-menu { 
+    position: absolute;
+  }
+  .language {
+    position: absolute;
+  }
+  .move-icon{
+    left: calc(100% - 140px);
+  }
+}
+

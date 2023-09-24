@@ -1,0 +1,10 @@
+@font-face{
+  font-family: Fuente;
+  src: url('../public/font/Gotham-Book-Font.otf');
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Fuente;
+}

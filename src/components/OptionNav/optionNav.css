@@ -1,0 +1,107 @@
+.li{
+  overflow: hidden;
+  user-select: none;
+}
+
+.li-page{
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.line-title{
+  width: 0px;
+  height: 2px;
+  background-color: #5d974a;
+  transition: linear 0.3s;
+  margin-bottom: 4px;
+  margin-left: 1.75px;
+}
+
+.select-line-title{
+  width: 25px;
+}
+
+.select-title{
+  color: #5d974a;
+}
+
+.li:hover .title{
+  color: #5d974a;
+}
+
+.li:hover .line-title{
+  width: 25px;
+}
+
+
+
+/*----------------------------------------------------------
+  estilaremos los ul dentro los li como opciones principales
+  ----------------------------------------------------------*/
+
+.container-subtitle {
+  max-height: 0;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+  gap: 23px;
+  transition: ease .3s;
+}
+
+.container-subtitle li {
+  color: rgb(100, 92, 92);
+}
+
+.subOption{
+  max-height: 500px;
+  margin-bottom: 20px;
+}
+
+.line-subtitle{
+  width: 0px;
+  height: 2px;
+  background-color: #5d974a;
+  transition: linear 0.3s;
+  margin-bottom: 4px;
+  margin-left: 1.75px;
+}
+
+.subtitle{
+  display: inline;
+  cursor: pointer;
+}
+
+.container-subtitle li:hover .subtitle{
+  color: #5d974a;
+}
+
+.container-subtitle li:hover .line-subtitle{
+  width: 25px;
+}
+
+@media(min-width: 770px){
+  .container-subtitle{
+    width: 100%;
+    height: 100%;
+    transition: ease .7s;
+    position: absolute;
+    padding-right: 10px;
+    right:-98%;
+    top: 0;
+    border-right: 2px solid black;
+    padding-left: 60px;
+  }
+
+  .subOption{
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 990px){
+  .container-subtitle{
+    padding-left: 40px;
+  }
+}
+
