@@ -1,0 +1,32 @@
+.contenedor-slider{
+  max-width: 1170px;
+  margin: auto;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.contenedor-slider-img {
+  width: 1450%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-slider {
+  width: 2.8%;
+  scroll-snap-align: center;
+}
+
+.contenedor-slider-info {
+  width: 3100%;
+  display: flex;
+  align-items: start;
+}
+
+.info-slider{
+  width: 3.22580645%;
+  border: solid 1px;
+  height: 200px;
+  scroll-snap-align: center;
+}

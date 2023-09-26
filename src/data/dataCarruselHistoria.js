@@ -1,0 +1,224 @@
+export const data = [
+    {
+      id: 0,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/1988.jpg",
+      year: 1988,
+      title: "Nace la primera Kola Real en Ayacucho, Perú",
+      description: "La familia Añaños comenzó a producir bebidas gaseosas bajo la marca Kola Real a partir de una bebida con sabor a naranja."
+    },
+    {
+      id: 1,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/1991.jpg",
+      year: 1991,
+      title: "LLEGAMOS A NUEVAS CIUDADES",
+      description: "NUEVAS SEDES DENTRO DE PERÚ. Huancayo en 1991, Bagua en 1993 y Sullana en 1994."
+    },
+    {
+      id: 2,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/1997.jpg",
+      year: 1997,
+      title: "KOLA REAL LLEGA A LA CAPITAL",
+      description: "Después de casi 10 años, se lanzó Kola Real en la capital peruana, Lima."
+    },
+    {
+      id: 3,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/1999.jpg",
+      year: 1999,
+      title: "COMIENZO DE LA EXPANSIÓN INTERNACIONAL",
+      description: "AJE se expande a otros países, empezando por Venezuela."
+    },
+    {
+      id: 4,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2022/08/24141246/cielo.linea_.jpg",
+      year: 2000,
+      title: "Lanzamineto de la marca Cielo",
+      description: ""
+    },
+    {
+      id: 5,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2000.jpg",
+      year: 2000,
+      title: "AJE LLEGA A ECUADOR",
+      description: "En el 2000, cerró la década con su incursión en Ecuador instalando la planta en Guayaquil."
+    },
+    {
+      id: 6,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2002.jpg",
+      year: "2002",
+      title: "AJE LLEGA A MÉXICO",
+      description: "México tuvo el mayor consumo de refrescos per cápita en el mundo. “Pensamos que, si el modelo de negocios en Perú fuera sostenible en México, entonces sería sostenible en cualquier lugar” – Carlos Añaños."
+    },
+    {
+      id: 7,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2004.jpg",
+      year: 2004,
+      title: "AJE LLEGA A CENTRO AMÉRICA",
+      description: "Intensificación de la expansión internacional. Comenzando en Costa Rica."
+    },
+    {
+      id: 8,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2021/05/31142014/pulp.png",
+      year: 2005,
+      title: "Lanzamiento de la marca PULP",
+      description: "Nuestra marca Pulp inició en el año 2005."
+    },
+    {
+      id: 9,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2005.jpg",
+      year: 2005,
+      title: "AJE SE EXPANDE EN CENTRO AMÉRICA",
+      description: "En 2005, ingresa a Guatemala, Nicaragua y Honduras."
+    },
+    {
+      id: 10,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/07/2006-espana-1.jpg",
+      year: 2006,
+      title: "INAUGURA OFICINA EN ESPAÑA",
+      description: "En 2006, abrió la oficina corporativa en España. Implementación de Gobierno Corporativo"
+    },
+    {
+      id: 11,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2006.jpg",
+      year: 2006,
+      title: "AJE LLEGA A UN NUEVO CONTINENTE: ASIA",
+      description: "Inaugura la primera planta en Asia las operaciones en Tailandia. Además, de inician operaciones en El Salvador"
+    },
+    {
+      id: 12,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2022/08/24141419/cirut-linea.jpg",
+      year: 2007,
+      title: "Lanzamiento de la marca Cifrut",
+      description: ""
+    },
+    {
+      id: 13,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2007.jpg",
+      year: 2007,
+      title: "AJE LLEGA A COLOMBIA",
+      description: "AJE a dirige su mirada al mercado de Colombia e inicia sus operaciones con la instalación de una planta en Bogotá"
+    },
+    {
+      id: 14,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2022/08/24141709/freetea.linea_.jpg",
+      year: 2009,
+      title: "Lanzamiento de la marca Free Tea",
+      description: ""
+    },
+    {
+      id: 15,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2009.jpg",
+      year: 2009,
+      title: "AJE LLEGA A PANAMÁ",
+      description: "Para solidificar la estrategia en Centro América, AJE inicia sus operaciones en Panamá."
+    },
+    {
+      id: 16,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2010.jpg",
+      year: 2010,
+      title: "EXPANSIÓN EN EL CONTINENTE ASIÁTICO",
+      description: "AJE inicia en diciembre de 2010 sus operaciones en India, Vietnam e Indonesia."
+    },
+    {
+      id: 17,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2022/08/24142101/volt.linea_.jpg",
+      year: 2012,
+      title: "Lanzaiento de la marca Volt",
+      description: ""
+    },
+    {
+      id: 18,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2022/08/24142444/bolivia.linea_.jpg",
+      year: 2013,
+      title: "AJE LLEGA A bOLIVIA",
+      description: "AJE inicia sus operaciones en",
+      extra: "Bolivia."
+    },
+    {
+      id: 19,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2013.jpg",
+      year: 2013,
+      title: "INICIO PROYECTO DE FRANQUICIAS",
+      description: "Con el 25 aniversario de, el Grupo inicia su primer proyecto de franquicias con su llegada a",
+      extra: "Isla Reunión."
+    },
+    {
+      id: 20,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2015.jpg",
+      year: 2015,
+      title: "AJE LLEGA A UN NUEVO CONTINENTE: ÁFRICA",
+      description: "En el mes de septiembre de 2015 inicia sus operaciones en Egipto y Nigeria (Franquicia) a través de su marca BIG Cola."
+    },
+    {
+      id: 21,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2016-1.jpg",
+      year: 2016,
+      title: "NUEVAS FRANQUICIAS",
+      description: "Refuerza su presencia internacional gracias a su llegada a Madagascar, la isla más grande de África y la cuarta más grande del mundo, situada frente la costa sureste de África. Además, aterriza en Bután, el reino de los Himalayas y que es la puerta de entrada al norte de la India."
+    },
+    {
+      id: 22,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2017.jpg",
+      year: 2017,
+      title: "AJE SE UBICA EN EL 4TO PUESTO EN EL RANKING DE EMPRESAS MULTILATINAS 2017",
+      description: "El nuevo Ranking de las 100 mayores empresas multilatinas de una importante revista internacional tiene nuevamente en el top 5 a una empresa peruana. Se trata de la reconocida AJE, que se ubica en el puesto 4 de esta lista."
+    },
+    {
+      id: 23,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2018-aniversario.jpg",
+      year: 2018,
+      title: "30 ANIVERSARIO",
+      description: "AJE celebra su tercera década a nivel global."
+    },
+    {
+      id: 24,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2018-premio.jpg",
+      year: 2018,
+      title: "AJE GANA PREMIO L+1",
+      description: "Promoviendo la conservación entre los líderes empresariales e institucionales del país, la plataforma de negocios verdes L+1 otorgó su premio 2018 al proyecto “Machu Picchu Sostenible”, desarrollado en la región Cusco. Gracias a la alianza público privada entre la cadena de hoteles Inkaterra, la Municipalidad Distrital de Machu Picchu, Alimenta Group y la multinacional peruana de bebidas AJE."
+    },
+    {
+      id: 25,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2022/08/24143524/amayu.line_.jpg",
+      year: 2019,
+      title: "Se lanza Bio Jugos 100% Naturales",
+      description: "En el 2020 cambia de identidad a Bio Amayu."
+    },
+    {
+      id: 26,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2019-Aliado.jpg",
+      year: 2019,
+      title: "AJE ES NOMBRADO “ALIADO DE LA CONSERVACIÓN”",
+      description: "AJE es reconocido por el trabajo que viene realizando en la selva peruana a través de su marca de bebidas naturales BIO."
+    },
+    {
+      id: 27,
+      img: "https://www.ajegroup.com/wp-content/uploads/2020/05/2020.jpg",
+      year: 2020,
+      title: "AJE RENUEVA SU IDENTIDAD VISUAL.",
+      description: "AJE apuesta por una nueva identidad visual acompañado de un nuevo logotipo que tiene como objetivo reflejar el compromiso por la sostenibilidad y promover el bienestar y la salud a través. Esto sin dejar de lado las raíces peruanas y el reto de mostrar al mundo nuestro potencial en calidad.",
+      extra: "Además, en este año firma una alianza estratégica con Heineken en Perú."
+    },
+    {
+      id: 28,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2020/12/02121659/g.jpg",
+      year: 2020,
+      title: "Se lanza Cifrut Gelatina, entramos a una nueva categoría.",
+      description: "En Octubre 2020, AJE fortalece su portafolio apostando por el ingreso a una nueva categoría en Perú. Con la nueva CIFRUT Gelatina sabor a fresa y con un alto contenido de Vitamina C."
+    },
+    {
+      id: 29,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2022/08/24144237/volt.psg2021.jpg",
+      year: 2021,
+      title: "Alianzas y Partners Globales",
+      description: "Sporade se convierte en patrocinador oficial de la Copa Davis.",
+      extra: "Luis Fonsi se convierte en embajador de nuestra marca BIG Cola.",
+      extra2: "Volt de convierte en el Patrocinador Oficial Regional del PSG."
+    },
+    {
+      id: 30,
+      img: "https://s3.us-east-2.amazonaws.com/desastatic.ajegroup.com/wp-content/uploads/2022/08/24145540/dgussto.linea_.jpg",
+      year: 2021,
+      title: "Lanzamos nuevas categorías",
+      description: "Lanzamos atún bajo la marca D’Gustto, y en el 2022, café, cacao y Arroz."
+    }
+]
