@@ -8,6 +8,7 @@
   transform: scale(.8);
   transition: transform .5s;
   max-width: 100%;
+  padding: 0 6px;
 }
 
 .slider-wrapper .img-slider.active {

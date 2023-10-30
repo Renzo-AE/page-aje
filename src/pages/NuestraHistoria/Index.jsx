@@ -8,14 +8,12 @@ import { useRef, useState } from "react";
 
 // eslint-disable-next-line react/prop-types
 export const NuestraHistoria = ({ pageSelect }) => {
-  const [isFirstPage, setIsFirstPage] = useState(true);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const urlBgImage = "url('../../../public/img/banner-historia.jpg')";
   const encabezado = "Más de 34 años haciendo posible lo imposible";
 
+  const imageRef = useRef(null)
   const timeViewRef = useRef(null);
-
-  console.log(timeViewRef.current, "timeViewRef")
 
   return (
     <div>
@@ -56,26 +54,19 @@ export const NuestraHistoria = ({ pageSelect }) => {
       <div className="slider-wrapper">
         <div className="contenedor-slider">
           <Splide
-            onMove={(event) => {
-              console.log(event, "event");
+            onMove={(event) => { 
               setCurrentSlideIndex(event.index);
               timeViewRef?.current?.go(event.index);
-              if (event.index !== 0) {
-                setIsFirstPage(false);
-              } else {
-                setIsFirstPage(true);
-              }
+              imageRef?.current?.go(event.index)
             }}
             options={{
-              perPage: isFirstPage ? 2 : 1,
+              perPage: 2,
               gap: "1rem",
               focus: "center",
-              padding: isFirstPage ? "0" : {
-                left: "22rem",
-                right: "22rem",
-              },
+              padding: "0",
               pagination: false,
             }}
+            ref={imageRef}
           >
             {data.map((fact, index) => (
               <SplideSlide key={fact.id}>
@@ -91,6 +82,11 @@ export const NuestraHistoria = ({ pageSelect }) => {
             ))}
           </Splide>
           <Splide
+            onMove={(event) => { 
+              setCurrentSlideIndex(event.index)
+              timeViewRef?.current?.go(event.index)
+              imageRef?.current?.go(event.index)
+            }}
             options={{
               pagination: false,
               arrows: false,
@@ -115,6 +111,14 @@ export const NuestraHistoria = ({ pageSelect }) => {
           </Splide>
         </div>
       </div>
+      <button 
+        onClick={() => {
+          timeViewRef?.current?.go(9)
+          imageRef?.current?.go(9)
+        }} 
+      >
+        hola
+      </button>
     </div>
   );
 };
